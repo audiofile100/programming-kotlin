@@ -18,4 +18,11 @@ fun main(args: Array<String>) {
 
     val isBornInTwentiethCentury = yearOfBirth < 2000
     println(isBornInTwentiethCentury)
+
+    val firstObject = Any()         // Any is a base type that all other types inherit
+    val secondObject = Any()
+
+    println("*** reference check ***")
+    println(firstObject === secondObject)   // === checks if point to same memory address
+    println(firstObject !== secondObject)   // !== negated reference check
 }
