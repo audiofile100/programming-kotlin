@@ -11,8 +11,8 @@ fun main() {
 
     println(states)
 
-    val mutableStates = mutableListOf("California", "Utah", "Nevada", "New York")
-    //val mutableStates = states.toMutableList()
+    //val mutableStates = mutableListOf("California", "Utah", "Nevada", "New York")
+    val mutableStates = states.toMutableList()
     mutableStates.add("Idaho")
     mutableStates.add(3, "Colorado")        // O(n) due to shifting
 
