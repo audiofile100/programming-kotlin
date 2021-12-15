@@ -12,6 +12,7 @@ fun main() {
     val action = games["Action"]
     println(action)     // null
 
+    // immutable map
     val headers = mapOf(
         "API_KEY" to "your-api-key",
         "Authorization" to "auth token",
